@@ -10,7 +10,7 @@ public class Praktikum {
         if (isLeapYear(year)) {
             System.out.println("12.09." + year);
         } else {
-            System.out.println("13.09." + year);
+            System.out.println("13.09." + year); //я не люблю такие обороты, но это дело вкуса
         }
     }
 
@@ -19,6 +19,6 @@ public class Praktikum {
             return true;
         } else if (year % 100 == 0) {
             return false;
-        } else return year % 4 == 0;
+        } else return year % 4 == 0; //хитро конечно, но как бы такими финтами самого себя не перехетрить, потом это будет не удобно читать
     }
 }
